@@ -1,4 +1,4 @@
-# Secured File Share
+# Secured File Share App
 
 Secure File Sharing App is a comprehensive solution for secure file exchange, developed using the MERN (MongoDB, Express.js, React, Node.js) stack. This application enables users to share files with end-users with a high level of privacy and security. Featuring end-to-end encryption, password protection, input sanitization, brute force attack protection, protection against NoSQL injections, XSS attacks, and many other security measures, it stands as a modern web application designed to meet the highest standards of data protection.
 
@@ -23,49 +23,3 @@ Secure File Sharing App is a comprehensive solution for secure file exchange, de
 - Express.js: To handle server-side logic and RESTful API endpoints.
 - React: For building a dynamic and responsive user interface.
 - Node.js: As the runtime environment for executing JavaScript on the server side.
-
-# Getting Started
-To get a local copy up and running, follow these simple steps.
-
-# Prerequisites
-- Node.js
-- Internet connection
-
-# Step by step video instructions for setting up and running the app
-
-[https://www.youtube.com/watch?v=fAsS6YrkIko](https://www.youtube.com/watch?v=fAsS6YrkIko)
-
-# Installation
-
-1. Open your terminal of choice and clone the repository:
-```
-git clone https://github.com/Kuzma02/Secured-File-Share
-```
-
-2. Enter your environment variables in .env on the server
-```
-MONGO_URI=your_mongo_uri
-MJ_APIKEY_PUBLIC=your_mail_jet_public_API_key
-MJ_APIKEY_PRIVATE=your_mail_jet_private_API_key
-```
-
-3. Enter your environment variables in .env on the client
-```
-VITE_CLERK_PUBLISHABLE_KEY=your_clerk_key
-```
-
-4. In the root of the project create folder "uploads"
-
-5. Open a terminal in the root of your project and run:
-```
-npm install
-node app.js
-```
-6. Open a terminal in the /client of your project and run:
-```
-npm install
-npm run dev
-```
-
-# Contributing
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
